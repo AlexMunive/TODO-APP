@@ -13,7 +13,7 @@ import TodoList from "./components/TodoList";
 //     { id: 5, title: "completed app frontend mentor", completed: false },
 // ];
 
-const initialState = JSON.parse(localStorage.getItem("todos") || []);
+const initialState = JSON.parse(localStorage.getItem("todos")) || [];
 
 const App = () => {
     const [todos, setTodos] = useState(initialState);
