@@ -36,7 +36,7 @@ const App = () => {
         const newTodo = {
             id: Date.now(),
             title: title.trim(),
-            completed: true,
+            completed: false,
         };
 
         setTodos([...todos, newTodo]);
